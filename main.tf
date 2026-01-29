@@ -15,3 +15,8 @@ module "address" {
   source  = "terraform-google-modules/address/google"
   version = "4.4.0"
 }
+
+module "cloud_dns" {
+  source  = "terraform-google-modules/cloud-dns/google"
+  version = "7.0.0"
+}
